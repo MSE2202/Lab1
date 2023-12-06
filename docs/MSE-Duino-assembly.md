@@ -1,10 +1,12 @@
 # MSE-Duino Assembly
 
 1. Check that the small chisel soldering tip is in the soldering pen attached to the Weller soldering station. If the fine tip is installed, unscrew the   iron barrel and change the tip to the chisel-shaped one.
-   <img src="figs/iron_tips.jpg" alt="iron tips" width="60%"/>
+   
+     <img src="figs/iron_tips.jpg" alt="iron tips" width="60%"/>
 
 2. Turn on the Weller soldering station. Set the temperature dial to about 600º.
-   <img src="figs/iron_temp.jpg" alt="iron temp" width="30%"/>
+   
+     <img src="figs/iron_temp.jpg" alt="iron temp" width="30%"/>
 
 3. Start with the top (component) side of the MSE-Duino PCB. Most of the components will be placed on the top side of the board with a silkscreened white labels MSE_Duino R5.1, as shown. The through-hole components placed on the top side will be soldered to the bottom of the board.
 
