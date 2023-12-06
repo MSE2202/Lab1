@@ -2,7 +2,7 @@
 
 1. Check that the small chisel soldering tip is in the soldering pen attached to the Weller soldering station. If the fine tip is installed, unscrew the   iron barrel and change the tip to the chisel-shaped one.
    
-     <img src="figs/iron_tips.jpg" alt="iron tips" width="60%"/>
+     <img src="figs/iron_tips.jpg" alt="iron tips" width="50%"/>
 
 2. Turn on the Weller soldering station. Set the temperature dial to about 600º.
    
