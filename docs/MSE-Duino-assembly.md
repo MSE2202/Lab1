@@ -6,7 +6,7 @@
 
 2. Turn on the Weller soldering station. Set the temperature dial to about 600º.
    
-     <img src="figs/iron_temp.jpg" alt="iron temp" width="30%"/>
+     <img src="figs/iron_temp.jpg" alt="iron temp" width="20%"/>
 
 3. Start with the top (component) side of the MSE-Duino PCB. Most of the components will be placed on the top side of the board with a silkscreened white labels MSE_Duino R5.1, as shown. The through-hole components placed on the top side will be soldered to the bottom of the board.
 
