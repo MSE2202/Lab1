@@ -1,6 +1,6 @@
-# MSE-Duino Testing
+# MSEduino Testing
 
-In order to test the functionality of the MSE-Duino, test code must be loaded onto the device. 
+In order to test the functionality of the MSEduino, test code must be loaded onto the device. 
 
 Programs for the Arduino are called sketches. These are created within an Integrated Development Environment (IDE) for the Arduino. The IDE allows sketches to be written and edited. The language and constructs are similar to C++. It provides functionality to convert (or compile) the human-readable code into instructions that the Arduino hardware understands (machine language). The IDE also facilitates the process of uploading compiled machine code onto the Arduino board. The IDE is available for Windows, Mac OS X and Linux based systems.
 

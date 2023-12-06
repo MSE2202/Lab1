@@ -1,4 +1,4 @@
-# MSE-Duino Assembly
+# MSEduino Assembly
 
 1. Check that the small chisel soldering tip is in the soldering pen attached to the Weller soldering station. If the fine tip is installed, unscrew the   iron barrel and change the tip to the chisel-shaped one.
    
@@ -8,7 +8,7 @@
    
      <img src="figs/iron_temp.jpg" alt="iron temp" width="20%"/>
 
-3. Start with the top (component) side of the MSE-Duino PCB. Most of the components will be placed on the top side of the board with a silkscreened white labels MSE_Duino R5.1, as shown. The through-hole components placed on the top side will be soldered to the bottom of the board.
+3. Start with the top (component) side of the MSEduino PCB. Most of the components will be placed on the top side of the board with a silkscreened white labels MSE_Duino R5.1, as shown. The through-hole components placed on the top side will be soldered to the bottom of the board.
 
 4. Place the thirteen 4.7 kΩ resistors into their marked locations (R2--R14). Note that, the orientation of the resistor does not matter; however, it is good practice to have them all face the same way.
 
@@ -29,13 +29,13 @@
 
 12. Solder other legs to the board.
 
-13. Turn the MSE-Duino over to work on the solder side.
+13. Turn the MSEduino over to work on the solder side.
 
 14. Using the same technique used for the surface-mount MOSFET, solder the surface-mount voltage regulator (U8) into place.
 
 15. Solder the two A1233 Hall sensors (U1 and U2). Be careful to align the indentation on the upper-left corner of chip with the white circle on the PCB. This ensures that the chip is oriented properly. Use the same technique used for the other surface-mount components, soldering a single pin first, then soldering the remaining 7 pins. If solder bridges across two or more pins, use a soldering iron in combination with a solder sucker to reflow the solder and remove the excess from between the pins.
 
-16. Turn the MSE-Duino back to the component side. Insert the narrow-gauge male headers into the PCB. Note that the pins are shorter on one side of the header. The short side should be inserted into the holes (long end of pin up). To assist with alignment, use the acrylic pin-alignment tool that is included in your Lab Kit. Place all three headers into the board, place the alignment tool overtop and flip the board to solder. Start by soldering one pin on each header. Check each header for seating and alignment, adjusting by reworking the solder, if necessary. Once the alignment looks good, solder the remaining pins on each header. It is suggested to place the iron on the larger side of each pad and bring solder in from the other side, rotating the PCB as necessary to provide good access.
+16. Turn the MSEduino back to the component side. Insert the narrow-gauge male headers into the PCB. Note that the pins are shorter on one side of the header. The short side should be inserted into the holes (long end of pin up). To assist with alignment, use the acrylic pin-alignment tool that is included in your Lab Kit. Place all three headers into the board, place the alignment tool overtop and flip the board to solder. Start by soldering one pin on each header. Check each header for seating and alignment, adjusting by reworking the solder, if necessary. Once the alignment looks good, solder the remaining pins on each header. It is suggested to place the iron on the larger side of each pad and bring solder in from the other side, rotating the PCB as necessary to provide good access.
 
 17. Solder in the two pushbuttons (marked as Rst and Prog/PB 0 on the PCB). The buttons may be installed in either orientation. There is no need to trim the pins after soldering.
 
@@ -59,15 +59,15 @@
 
 27. Place the addressable RGB LED (LED1). Ensure that the flat side (with longer leads) is aligned with the silkscreen (towards the middle of the board). Some ``wiggling'' may be necessary to get all four leads to align with the holes. Solder in place and trim the leads.
 
-28. Turn the MSE-Dunio over to the solder side. Place the USB-A connector. Flip the board and solder one of the four small pins. Check alignment and then solder the remaining three small pins. The two large pins serve to reinforce the connection to the board. Flood the corresponding holes with solder for form a secure connection.
+28. Turn the MSEdunio over to the solder side. Place the USB-A connector. Flip the board and solder one of the four small pins. Check alignment and then solder the remaining three small pins. The two large pins serve to reinforce the connection to the board. Flood the corresponding holes with solder for form a secure connection.
 
-29. Turn the MSE-Duino back to the component side. Bend one of the leads of the last 0.1 µF ceramic capacitor to be perpendicular to the body. Place the unbend lead into the upper hole for C8. Rotate the capacitor until the bent lead aligns with the bottom pin of the USB connector. Trim the lead to this length and solder to the bottom USB pin. Solder and trim the other lead.
+29. Turn the MSEduino back to the component side. Bend one of the leads of the last 0.1 µF ceramic capacitor to be perpendicular to the body. Place the unbend lead into the upper hole for C8. Rotate the capacitor until the bent lead aligns with the bottom pin of the USB connector. Trim the lead to this length and solder to the bottom USB pin. Solder and trim the other lead.
 
 30. Once the boards have been soldered, it is important to test for short circuits and other potential issues \textbf{before} inserting the ESP32. Using a multimeter set to continuity (beep) mode, the following tests should be performed. If a beep is heard, the source of the short circuit must be identified and corrected.
     1. Ground (centre hole or pins along bottom edge of board) to 3.3 VDC pins (middle pins of J3–J18, J46).
     2. Ground (center hole or pins along bottom edge of board) to 5.0 VDC pins (middle pins of J21, J35–J42, J45, J47, J48).
     3. 3.3 VDC (middle pins of J3–J18, J46) to 5 VDC pins (middle pins of J21, J35–J42, J45, J47, J48).
-    4. If the board passes the short circuit tests, connect the MSE-Duino board to USB power using the USB-A to USB-A cable. Using a multimeter in DC voltage mode, the following tests should be performed. If the voltages are different than expected, then there is a problem with the board that must be identified before proceeding.
+    4. If the board passes the short circuit tests, connect the MSEduino board to USB power using the USB-A to USB-A cable. Using a multimeter in DC voltage mode, the following tests should be performed. If the voltages are different than expected, then there is a problem with the board that must be identified before proceeding.
     5. Check that LED2 comes on.
     6. Check that 3.3 VDC is at the 3.3 VDC pins (middle pins of J3–J18, J46).
     7. Check that 5.0 VDC is at 5.0 VDC pins (middle pins of J21, J35–J42, J45, J47, J48).
