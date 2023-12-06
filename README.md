@@ -45,9 +45,9 @@ Purchase the MSE-Duino Lab Kit from the Engineering Stores online store. Bring y
 
 This lab consists of the following exercises. Follow the associated link for full instructions for each exercise.
 
-1. [MSE-Duino Assembly](docs/MSE-Duino-assembly)
-2. [MSE-Duino Testing](docs/MSE-Duino-testing)
-3. [Beacon Assembly](docs/beacon-assembly)
+1. [MSE-Duino Assembly](docs/MSE-Duino-assembly.md)
+2. [MSE-Duino Testing](docs/MSE-Duino-testing.md)
+3. [Beacon Assembly](docs/beacon-assembly.md)
 
 ## Evaluation
 
