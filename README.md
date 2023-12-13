@@ -38,7 +38,8 @@ In addition to the components contained in the Lab Kit, the following equipment 
 
 ## Prelab Preparation
 
-Purchase the MSEduino Lab Kit from the Engineering Stores online store. Bring your printed or electronic receipt to the lab.
+1. Purchase the MSE 2202 Lab Kit from the Engineering Stores online store. Bring your printed or electronic receipt to the lab.
+2. Review [Soldering is Easy](https://mightyohm.com/files/soldercomic/FullSolderComic_EN.pdf).
 
 
 ## Exercises

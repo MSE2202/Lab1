@@ -4,6 +4,16 @@
 
 If you have not done so already, please review [Soldering is Easy](https://mightyohm.com/files/soldercomic/FullSolderComic_EN.pdf). It contains helpful information and tips about best practice for soldering. It is highly recommended that you review it, *even if you have experience with soldering*.
 
+## References
+
+[Resistor Colour Codes](https://www.digikey.com/web%20export/mkt/general/mkt/resistor-color-chart.jpg)
+[Capacitor Codes](https://i2.wp.com/www.bragitoff.com/wp-content/uploads/2015/09/CapacitorsCheatSheet.png)
+[MSEduino R5.1 Pinouts]()
+[MSEduino R5.1 Schematic](MSEduino/MSEduino_R5.1_Schematic.pdf)
+[MSEduino R5.1 PCB Top](MSEduino/MSEduino_R5.1_Top.pdf)
+[MSEduino R5.1 PCB Bottom](MSEduino/MSEduino_R5.1_Bottom.pdf)
+[MSEduino R5.1 PCB Ratsnest.pdf](MSEduino/MSEduino_R5.1_Bottom_Ratsnest.pdf)
+
 ## Instructions
 
 1. **Begin by putting on a pair of safety glasses.**
@@ -20,7 +30,7 @@ If you have not done so already, please review [Soldering is Easy](https://might
 
     <img src="figs/Step00.jpg" alt="step 0" width="80%"/>
 
-4. Place the fifteen 4.7 kΩ resistors into their marked locations (R2–R14, R17, R18). The tab at the end of the acrylic FlexyPin alignment tool can be used to bend the leads to align with the holes in the PCB. Note that, the orientation of the resistor does not matter; however, it is good practice to have them all face the same way.
+4. Place fifteen 4.7 kΩ resistors into their marked locations (R2–R14, R17, R18). The tab at the end of the acrylic FlexyPin alignment tool can be used to bend the leads to align with the holes in the PCB. Note that, the orientation of the resistor does not matter; however, it is good practice to have them all face the same way.
 
     <img src="figs/Step01.jpg" alt="step 1" width="80%"/>
 
