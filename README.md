@@ -35,12 +35,10 @@ In addition to the components contained in the Lab Kit, the following equipment 
 * USB-A male to USB-A female cable
 * PC with Arduino IDE
 
-
 ## Prelab Preparation
 
-1. Purchase the MSE 2202 Lab Kit from the Engineering Stores online store. Bring your printed or electronic receipt to the lab.
+1. Purchase the MSE 2202 Lab Kit from the [Engineering Stores online store](https://estore.eng.uwo.ca). Bring your printed or electronic receipt to the lab.
 2. Review [Soldering is Easy](https://mightyohm.com/files/soldercomic/FullSolderComic_EN.pdf).
-
 
 ## Exercises
 
@@ -52,9 +50,10 @@ This lab consists of the following exercises. Follow the associated link for ful
 
 ## Evaluation
 
-| Task       | Maximum Marks | Demo | Code | Comments |
-|:-----------|:-------------:|:----:|:----:|:--------:|
-| MSEduino built correctly | **10**        | 10   | —    | —        |
-| ESP32 operational | **10**        | 6    | 3    | 1        |
-| Build quality | **30**        | 15   | 10   | 5        |
-| Total Marks | **30**        | 15   | 10   | 5        |
+| Task       | Maximum Marks |
+|:-----------|:-------------:|
+| MSEduino build | **40**        |
+| ESP32 operational | **30**        |
+| Other components build |**20** |
+| Build quality | **10**        |
+| Total Marks | **100**       |
