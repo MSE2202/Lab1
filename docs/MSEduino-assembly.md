@@ -7,11 +7,17 @@ If you have not done so already, please review [Soldering is Easy](https://might
 ## References
 
 [Resistor Colour Codes](https://www.digikey.com/web%20export/mkt/general/mkt/resistor-color-chart.jpg)
+
 [Capacitor Codes](https://i2.wp.com/www.bragitoff.com/wp-content/uploads/2015/09/CapacitorsCheatSheet.png)
+
 [MSEduino R5.1 Pinouts]()
+
 [MSEduino R5.1 Schematic](MSEduino/MSEduino_R5.1_Schematic.pdf)
+
 [MSEduino R5.1 PCB Top](MSEduino/MSEduino_R5.1_Top.pdf)
+
 [MSEduino R5.1 PCB Bottom](MSEduino/MSEduino_R5.1_Bottom.pdf)
+
 [MSEduino R5.1 PCB Ratsnest.pdf](MSEduino/MSEduino_R5.1_Bottom_Ratsnest.pdf)
 
 ## Instructions
