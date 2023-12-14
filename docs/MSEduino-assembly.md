@@ -46,7 +46,7 @@ If you have not done so already, please review [Soldering is Easy](https://might
 
 7. Check that the solder joints are well formed. Ensure that there is sufficient, but not too much solder, at each connection. Look for cold solder joints (a ball of solder above pad). If any problems are visible, use the soldering iron to retouch the joints, adding more solder if necessary.
 
-8. Using flush cutters, trim exposed leads as close to the board as possible without cutting the joint itself. Repeat Steps 7 and 8 for the remaining fourteen 4.7 kΩ resistors.
+8. Using flush cutters, trim exposed leads as close to the board as possible without cutting the joint itself. Repeat Steps 7–9 for the remaining fourteen 4.7 kΩ resistors.
 
     <img src="figs/trim_leads.jpg" alt="trim leads" width="72%"/>
 
@@ -58,7 +58,7 @@ If you have not done so already, please review [Soldering is Easy](https://might
 
     <img src="figs/surface_mount1.jpg" alt="surface mount 1" width="72%"/>
 
-11. Holding the part with a pair of tweezers or needle-nose pliers, reheat the solder and slide the part into place. The three legs (one soldered and two unsoldered) should straddle the pads. If the legs are not aligned properly aligned with the pads, reheat the pad/leg with solder and reposition.
+11. Holding the component with a pair of tweezers or needle-nose pliers, reheat the solder and slide the part into place. The three legs (one soldered and two unsoldered) should straddle the pads. If the legs are not aligned properly aligned with the pads, reheat the pad/leg with solder and reposition.
 
     <img src="figs/surface_mount2.jpg" alt="surface mount 2" width="72%"/>
 
@@ -80,7 +80,7 @@ If you have not done so already, please review [Soldering is Easy](https://might
 
     <img src="figs/Step04.jpg" alt="step 4" width="85%"/>
 
-18. Being careful to not bend any pins, insert the DIP switch into the marked location on the board (S1). Note that, the numbers should be towards the inside of the PCB, with the ON direction towards the upper edge of the PCB.  Solder two diagonally-opposite corners first. Check to make sure that the socket is seated properly. If necessary, reheat the solder at each corner while pushing the socket closer to the board. Once the socket is firmly seated, solder the remaining pins. There is no need to trim the pins after soldering.
+18. Being careful to not bend any pins, insert the DIP switch into the marked location on the board (S1). You may need to gently roll the component on a flat surface or use pliers to bend the pins such that they align the holes. Note that, the numbers should be towards the inside of the PCB, with the ON direction towards the upper edge of the PCB. Solder one corner first. Check to make sure that the socket is seated properly. If necessary, reheat the solder while pushing the socket closer to the board. Once the socket is firmly seated, solder the remaining pins. There is no need to trim the pins after soldering.
 
     <img src="figs/Step05.jpg" alt="step 5" width="85%"/>
 
@@ -96,11 +96,11 @@ If you have not done so already, please review [Soldering is Easy](https://might
 
     <img src="figs/Step08.jpg" alt="step 8" width="85%"/>
 
-21. Place the 10 kΩ potentiometer in location R1. Solder the potentiometer to the board by a single pin, check and adjust alignment, then solder remaining pins.
+21. Place the 10 kΩ potentiometer in location R1. Solder the potentiometer to the board by a single pin, check and adjust alignment, then solder remaining pins. There is no need to trim the pins after soldering.
 
     <img src="figs/Step09.jpg" alt="step 9" width="85%"/>
 
-22. Solder the three 37-pin male headers at the bottom edge of the board. Start by using a pair of pliers to break off three pins (reducing from 40). Note that the shorter pins should be inserted into the PCB (long end of pin up). Start by soldering one pin of each header, checking that each is sitting flat and straight. If necessary, reheat the solder to adjust and ensure that all of the pins are perpendicular to the PCB and that all of the headers are aligned. Once everything looks good, solder the remaining pins.
+22. Solder the three 37-pin male headers at the bottom edge of the board. Start by using a pair of pliers to break off three pins (reducing from 40). Save the broken off pins. Note that the shorter pins should be inserted into the PCB (long end of pin up). Start by soldering one pin of each header, checking that each is sitting flat and straight. If necessary, reheat the solder to adjust and ensure that all of the pins are perpendicular to the PCB and that all of the headers are aligned. Once everything looks good, solder the remaining pins.
 
     <img src="figs/Step10.jpg" alt="step 10" width="85%"/>
 
@@ -116,20 +116,20 @@ If you have not done so already, please review [Soldering is Easy](https://might
 
     <img src="figs/Step13.jpg" alt="step 13" width="85%"/>
 
-26. Place the two 10 µF electrolytic capacitors (C12, C14). Note that, unlike ceramic capacitors, electrolytic capacitors have a polarity. The side with the negative lead is indicated by a white band (containing negative signs) on the capacitor barrel. The pad for the positive lead is marked with a plus sign on the board. Once placed, solder the capacitors to the board.
+26. Place the two 10 µF electrolytic capacitors (C12, C14). Note that, unlike ceramic capacitors, electrolytic capacitors have a polarity. The side with the negative lead is indicated by a white band (containing negative signs) on the capacitor barrel. The pad for the positive lead is marked with a plus sign on the board. Once placed, solder the capacitors to the board and trim the leads.
 
     <img src="figs/Step14.jpg" alt="step 14" width="85%"/>
 
-27. Place the addressable RGB LED (LED1). Ensure that the flat side (with longer leads) is aligned with the silkscreen (towards the middle of the board). Some ``wiggling'' may be necessary to get all four leads to align with the holes. Don't push past the widening in each lead—the LED should sit approximately 4 mm above the PCB. Solder in place and trim the leads.
+27. Place the addressable RGB LED (LED1). Ensure that the flat side (with longer leads) is aligned with the silkscreen (towards the middle of the board). Some "wiggling" may be necessary to get all four leads to align with the holes. Don't push past the widening in each lead—the LED should sit approximately 4 mm above the PCB. Solder in place and trim the leads.
 
     <img src="figs/Step15.jpg" alt="step 15" width="85%"/>
 
-28. Turn the MSEdunio over to the solder side. Place the USB-A connector. Flip the board and solder one of the four small pins. Check alignment and then solder the remaining three small pins. The two large pins serve to reinforce the connection to the board. Flood the corresponding holes with solder for form a secure connection.
+28. Turn the MSEdunio over to the solder side. Place the USB-A connector, ensuring that it is fully seated against the PCB. Flip the board and solder one of the four small pins. Check alignment and then solder the remaining three small pins. The two large pins serve to reinforce the connection to the board. Flood the corresponding holes with solder for form a secure connection.
 
     <img src="figs/Step16.1.jpg" alt="step 16" width="85%"/>
 
 
-29. Turn the MSEduino back to the solder side. Carefully insert 40 FlexyPins into the board with the long end in the oval hole and the short end in the smaller one. Use the acrylic FlexyPin alignment tool to align all of the pins. Flip the board and solder all of the short ends, being careful to not create solder "bridges" between adjacent pads. If a solder bridge does form, use a solder sucker to remove. Counterinuitively, it may be helpful to add more solder to the bridged pins before reheating and sucking away the excess solder.
+29. Turn the MSEduino back to the solder side. Carefully insert 40 FlexyPins into the board with the long end in the oval hole and the short end in the smaller one. Once all pins have been inserted, use the acrylic FlexyPin alignment tool to align all of the pins. Flip the board and solder all of the short ends, being careful to not create solder "bridges" between adjacent pads. If a solder bridge does form, use a solder sucker to remove. Counterinuitively, it may be helpful to add more solder to the bridged pins before reheating and sucking away the excess solder.
 
     <img src="figs/Step17.1.jpg" alt="step 17" width="85%"/>
 
