@@ -33,7 +33,7 @@ If you have not done so already, please review [Soldering is Easy](https://might
 4. Place fifteen 4.7 kΩ resistors into their marked locations (R2–R14, R17, R18). The tab at the end of the acrylic FlexyPin alignment tool can be used to bend the leads to align with the holes in the PCB. Note that, the orientation of the resistor does not matter; however, it is good practice to have them all face the same way.
 
     <img src="figs/Step01.jpg" alt="step 1" width="85%"/>
-    <img src="figs/bent_leads1.jpg" alt="bent leads 1" width="100%">
+    <img src="figs/bent_leads1.jpg" alt="bent leads 1" width="73%">
 
 
 5. Bend the leads of the resistors outwards so that they do not fall out of place while being soldered. This may be done by reaching underneath before flipping the board over or by holding the resistors in place with one hand while flipping the board over with the other and then bending the leads outwards. In either case, the resistors should be pressed flush to the board while bending the leads. The leads should only be bent over enough to keep the resistor in place (30–50º).
@@ -42,7 +42,7 @@ If you have not done so already, please review [Soldering is Easy](https://might
 
 6. Solder one of resistor leads to the pad on the PCB. Once soldered, check the resistor from the component side to ensure that it has not popped up. If it has, reheat the solder and, begin careful to not burn your fingers, press the resistor to the PCB. Solder the other lead. 
     
-    <img src="figs/solder_leads.jpg" alt="solder leads" width="100%"/>
+    <img src="figs/solder_leads.jpg" alt="solder leads" width="72%"/>
 
 7. Check that the solder joints are well formed. Ensure that there is sufficient, but not too much solder, at each connection. Look for cold solder joints (a ball of solder above pad). If any problems are visible, use the soldering iron to retouch the joints, adding more solder if necessary.
 
