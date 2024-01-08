@@ -45,15 +45,21 @@ In addition to the components contained in the Lab Kit, the following equipment 
 This lab consists of the following exercises. Follow the associated link for full instructions for each exercise.
 
 1. [MSEduino Assembly](docs/MSEduino-assembly.md)
-2. [MSEduino Testing](docs/MSEduino-testing.md)
-3. [Beacon Assembly](docs/beacon-assembly.md)
+2. [MX1508 DC Motor Driver Assembly](docs/MX1508-assembly.md)
+3. [DC Motor Wiring](docs/DC-motor-wiring.md)
+4. [IR Receiver Assembly](docs/IR-receiver-assembly.md)
+5. [IR Beacon Assembly](docs/IR-beacon-assembly.md)
+6. [MSEduino Testing](docs/MSEduino-testing.md)
 
 ## Evaluation
 
 | Task       | Maximum Marks |
 |:-----------|:-------------:|
-| MSEduino build | **40**        |
-| ESP32 operational | **30**        |
-| Other components build |**20** |
+| MSEduino build | **35**        |
+| MX1508 build | **5** |
+| DC motor wiring | **10** |
+| IR receiver build | **5** |
+| IR beacon build | **10** |
+| MSEduino operational | **25**        |
 | Build quality | **10**        |
 | Total Marks | **100**       |
