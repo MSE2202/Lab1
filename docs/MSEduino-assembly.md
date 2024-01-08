@@ -8,11 +8,7 @@ If you have not done so already, please review [Soldering is Easy](https://might
 
 - [Resistor Colour Codes](https://www.digikey.com/web%20export/mkt/general/mkt/resistor-color-chart.jpg)
 - [Capacitor Codes](https://i2.wp.com/www.bragitoff.com/wp-content/uploads/2015/09/CapacitorsCheatSheet.png)
-<<<<<<< Updated upstream
-- [MSEduino R5.1 Pinouts](MSEduino.MSEduino_R5.1_Pinout.pdf)
-=======
 - [MSEduino R5.1 Pinouts](MSEduino/MSEduino_R5.1_Pinouts.pdf)
->>>>>>> Stashed changes
 - [MSEduino R5.1 Schematic](MSEduino/MSEduino_R5.1_Schematic.pdf)
 - [MSEduino R5.1 PCB Top](MSEduino/MSEduino_R5.1_Top.pdf)
 - [MSEduino R5.1 PCB Bottom](MSEduino/MSEduino_R5.1_Bottom.pdf)
@@ -100,48 +96,48 @@ The entire MSEduino build is demonstrated the video below. It is recommended tha
 
     <img src="figs/Step07.jpg" alt="step 7" width="85%"/>
 
-25. Place the 2N7000 N-channel MOSFETs (Q1, Q2). Ensure that they are seated properly and solder one pin of each. If necessary, adjust the alignment, then solder the remaining pins.
+21. Place the 2N7000 N-channel MOSFETs (Q1, Q2). Ensure that they are seated properly and solder one pin of each. If necessary, adjust the alignment, then solder the remaining pins.
 
     <img src="figs/Step08.jpg" alt="step 8" width="85%"/>
 
-21. Place the 10 kΩ potentiometer in location R1. Solder the potentiometer to the board by a single pin, check and adjust alignment, then solder remaining pins. There is no need to trim the pins after soldering.
+22. Place the 10 kΩ potentiometer in location R1. Solder the potentiometer to the board by a single pin, check and adjust alignment, then solder remaining pins. There is no need to trim the pins after soldering.
 
     <img src="figs/Step09.jpg" alt="step 9" width="85%"/>
 
-22. Solder the three 37-pin male headers at the bottom edge of the board. Start by using a pair of pliers to break off three pins (reducing from 40). Save the broken off pins. Note that the shorter pins should be inserted into the PCB (long end of pin up). Start by soldering one pin of each header, checking that each is sitting flat and straight. If necessary, reheat the solder to adjust and ensure that all of the pins are perpendicular to the PCB and that all of the headers are aligned. Once everything looks good, solder the remaining pins.
+23. Solder the three 37-pin male headers at the bottom edge of the board. Start by using a pair of pliers to break off three pins (reducing from 40). Save the broken off pins. Note that the shorter pins should be inserted into the PCB (long end of pin up). Start by soldering one pin of each header, checking that each is sitting flat and straight. If necessary, reheat the solder to adjust and ensure that all of the pins are perpendicular to the PCB and that all of the headers are aligned. Once everything looks good, solder the remaining pins.
 
     <img src="figs/Step10.jpg" alt="step 10" width="85%"/>
 
-23. Solder the 2-pin male header (X1) at the top edge of the board.
+24. Solder the 2-pin male header (X1) at the top edge of the board.
 
     <img src="figs/Step11.jpg" alt="step 11" width="85%"/>
 
-24. Solder the 2-pin female header below R11.
+25. Solder the 2-pin female header below R11.
 
     <img src="figs/Step12.jpg" alt="step 12" width="85%"/>
 
-25. Solder the 4-pin female header to the left of R8.
+26. Solder the 4-pin female header to the left of R8.
 
     <img src="figs/Step13.jpg" alt="step 13" width="85%"/>
 
-26. Place the two 10 µF electrolytic capacitors (C12, C14). Note that, unlike ceramic capacitors, electrolytic capacitors have a polarity. The side with the negative lead is indicated by a white band (containing negative signs) on the capacitor barrel. The pad for the positive lead is marked with a plus sign on the board. Once placed, solder the capacitors to the board and trim the leads.
+27. Place the two 10 µF electrolytic capacitors (C12, C14). Note that, unlike ceramic capacitors, electrolytic capacitors have a polarity. The side with the negative lead is indicated by a white band (containing negative signs) on the capacitor barrel. The pad for the positive lead is marked with a plus sign on the board. Once placed, solder the capacitors to the board and trim the leads.
 
     <img src="figs/Step14.jpg" alt="step 14" width="85%"/>
 
-27. Place the addressable RGB LED (LED1). Ensure that the flat side (with longer leads) is aligned with the silkscreen (towards the middle of the board). Some "wiggling" may be necessary to get all four leads to align with the holes. Don't push past the widening in each lead—the LED should sit approximately 4 mm above the PCB. Solder in place and trim the leads.
+28. Place the addressable RGB LED (LED1). Ensure that the flat side (with longer leads) is aligned with the silkscreen (towards the middle of the board). Some "wiggling" may be necessary to get all four leads to align with the holes. Don't push past the widening in each lead—the LED should sit approximately 4 mm above the PCB. Solder in place and trim the leads.
 
     <img src="figs/Step15.jpg" alt="step 15" width="85%"/>
 
-28. Turn the MSEdunio over to the solder side. Place the USB-A connector, ensuring that it is fully seated against the PCB. Flip the board and solder one of the four small pins. Check alignment and then solder the remaining three small pins. The two large pins serve to reinforce the connection to the board. Flood the corresponding holes with solder for form a secure connection.
+29. Turn the MSEdunio over to the solder side. Place the USB-A connector, ensuring that it is fully seated against the PCB. Flip the board and solder one of the four small pins. Check alignment and then solder the remaining three small pins. The two large pins serve to reinforce the connection to the board. Flood the corresponding holes with solder for form a secure connection.
 
     <img src="figs/Step16.1.jpg" alt="step 16" width="85%"/>    
     <img src="figs/USB_connector.jpg" alt="USB connector" width="85%"/>
 
-29. Turn the MSEduino back to the solder side. Carefully insert 40 FlexyPins into the board with the long end in the oval hole and the short end in the smaller one. Once all pins have been inserted, use the acrylic FlexyPin alignment tool to align all of the pins. Flip the board and solder all of the short ends, being careful to not create solder "bridges" between adjacent pads. If a solder bridge does form, use a solder sucker to remove. Counterinuitively, it may be helpful to add more solder to the bridged pins before reheating and sucking away the excess solder.
+30. Turn the MSEduino back to the solder side. Carefully insert 40 FlexyPins into the board with the long end in the oval hole and the short end in the smaller one. Once all pins have been inserted, use the acrylic FlexyPin alignment tool to align all of the pins. Flip the board and solder all of the short ends, being careful to not create solder "bridges" between adjacent pads. If a solder bridge does form, use a solder sucker to remove. Counterinuitively, it may be helpful to add more solder to the bridged pins before reheating and sucking away the excess solder.
 
     <img src="figs/Step17.1.jpg" alt="step 17" width="85%"/>
 
-30. Once the board has been soldered, it is important to test for short circuits and other potential issues **before** inserting the ESP32. Using a multimeter set to continuity (beep) mode, the following tests should be performed. If a beep is heard, the source of the short circuit must be identified and corrected.
+31. Once the board has been soldered, it is important to test for short circuits and other potential issues **before** inserting the ESP32. Using a multimeter set to continuity (beep) mode, the following tests should be performed. If a beep is heard, the source of the short circuit must be identified and corrected.
     1. Ground (centre hole or pins along bottom edge of board) to 3.3 VDC pins (middle pins of J0, J3–J18, J46–J48).
     2. Ground (center hole or pins along bottom edge of board) to 5.0 VDC pins (middle pins of J0–J2, J21, J35–J45, J47-5, J48-5).
     3. 3.3 VDC (middle pins of J0, J3–J18, J46–J48) to 5 VDC pins (middle pins of J0–J2, J21, J35–J45, J47-5, J48-5).
@@ -152,16 +148,16 @@ The entire MSEduino build is demonstrated the video below. It is recommended tha
     5. If the board passes the voltage checks, remove USB power.
     6. **Before proceeding, have a TA confirm that your board passes these tests.**
 
-31. With the chamfered corners on the leading edge, insert the acrylic FlexyPin spreader into the FlexyPins. 
+32. With the chamfered corners on the leading edge, insert the acrylic FlexyPin spreader into the FlexyPins. 
 
     <img src="figs/pin_spread.jpg" alt="pin spreading" width="72%"/>
 
-32. Carefully insert the ESP32 module between the pins. Confirm that all of the FlexyPins are properly aligned with the corresponding notch in the ESP32 module. Once everything is properly aligned, remove the pin spreader. 
+33. Carefully insert the ESP32 module between the pins. Confirm that all of the FlexyPins are properly aligned with the corresponding notch in the ESP32 module. Once everything is properly aligned, remove the pin spreader. 
 
     <img src="figs/ESP32_insertion.jpg" alt="ESP32 insertion" width="72%"/>
 
-33. Your fully-assembled MSEduino board with ESP32 installed should look like this:
+34. Your fully-assembled MSEduino board with ESP32 installed should look like this:
 
     <img src="figs/Step21.jpg" alt="step 21" width="85%"/>
  
-34. **Be sure to wash your hands after handling solder.**
+35. **Be sure to wash your hands after handling solder.**
