@@ -16,65 +16,69 @@ If you have not done so already, please review [Soldering is Easy](https://might
 
 ## Instructions
 
+The entire MSEduino build is demonstrated the video below. It is recommended that, in addition to carefully reading the instructions here, you watch or follow along with the video for suggestions and tips **before** completing each step.
+
+[![MSEduino V5.1 Build](https://img.youtube.com/vi/HEy4Kgx4rsw/0.jpg)](https://www.youtube.com/watch?v=HEy4Kgx4rsw "MSEduino R5.1 Build")
+
 1. **Begin by putting on a pair of safety glasses.**
 
-1. Check that the small chisel soldering tip is in the soldering pen attached to the Weller soldering station. If the fine tip is installed, unscrew the   iron barrel and change the tip to the chisel-shaped one.
+2. Check that the small chisel soldering tip is in the soldering pen attached to the Weller soldering station. If the fine tip is installed, unscrew the   iron barrel and change the tip to the chisel-shaped one.
 
     <img src="figs/iron_tips.jpg" alt="iron tips" width="72%"/>
 
-2. Turn on the Weller soldering station. Set the temperature dial to about 600º.
+3. Turn on the Weller soldering station. Set the temperature dial to about 600º.
 
     <img src="figs/iron_temp.jpg" alt="iron temp" width="20%"/>
 
-3. Start with the top (component) side of the MSEduino PCB. Most of the components will be placed on the top side of the board with a silkscreened white labels MSE_Duino R5.1, as shown. The through-hole components placed on the top side will be soldered to the bottom of the board.
+4. Start with the top (component) side of the MSEduino PCB. Most of the components will be placed on the top side of the board with a silkscreened white labels MSE_Duino R5.1, as shown. The through-hole components placed on the top side will be soldered to the bottom of the board.
 
     <img src="figs/Step00.jpg" alt="step 0" width="85%"/>
 
-4. Place fifteen 4.7 kΩ resistors into their marked locations (R2–R14, R17, R18). The tab at the end of the acrylic FlexyPin alignment tool can be used to bend the leads to align with the holes in the PCB. Note that, the orientation of the resistor does not matter; however, it is good practice to have them all face the same way.
+5. Place fifteen 4.7 kΩ resistors into their marked locations (R2–R14, R17, R18). The tab at the end of the acrylic FlexyPin alignment tool can be used to bend the leads to align with the holes in the PCB. Note that, the orientation of the resistor does not matter; however, it is good practice to have them all face the same way.
 
     <img src="figs/Step01.jpg" alt="step 1" width="85%"/>
     <img src="figs/bent_leads1.jpg" alt="bent leads 1" width="73%">
 
 
-5. Bend the leads of the resistors outwards so that they do not fall out of place while being soldered. This may be done by reaching underneath before flipping the board over or by holding the resistors in place with one hand while flipping the board over with the other and then bending the leads outwards. In either case, the resistors should be pressed flush to the board while bending the leads. The leads should only be bent over enough to keep the resistor in place (30–50º).
+6. Bend the leads of the resistors outwards so that they do not fall out of place while being soldered. This may be done by reaching underneath before flipping the board over or by holding the resistors in place with one hand while flipping the board over with the other and then bending the leads outwards. In either case, the resistors should be pressed flush to the board while bending the leads. The leads should only be bent over enough to keep the resistor in place (30–50º).
 
     <img src="figs/bent_leads2.jpg" alt="bent leads 2" width="72%"/>
 
-6. Solder one of resistor leads to the pad on the PCB. Once soldered, check the resistor from the component side to ensure that it has not popped up. If it has, reheat the solder and, begin careful to not burn your fingers, press the resistor to the PCB. Solder the other lead. 
+7. Solder one of resistor leads to the pad on the PCB. Once soldered, check the resistor from the component side to ensure that it has not popped up. If it has, reheat the solder and, begin careful to not burn your fingers, press the resistor to the PCB. Solder the other lead. 
     
     <img src="figs/solder_leads.jpg" alt="solder leads" width="72%"/>
 
-7. Check that the solder joints are well formed. Ensure that there is sufficient, but not too much solder, at each connection. Look for cold solder joints (a ball of solder above pad). If any problems are visible, use the soldering iron to retouch the joints, adding more solder if necessary.
+8. Check that the solder joints are well formed. Ensure that there is sufficient, but not too much solder, at each connection. Look for cold solder joints (a ball of solder above pad). If any problems are visible, use the soldering iron to retouch the joints, adding more solder if necessary.
 
-8. Using flush cutters, trim exposed leads as close to the board as possible without cutting the joint itself. Repeat Steps 7–9 for the remaining fourteen 4.7 kΩ resistors.
+9. Using flush cutters, trim exposed leads as close to the board as possible without cutting the joint itself. Repeat Steps 7–9 for the remaining fourteen 4.7 kΩ resistors.
 
     <img src="figs/trim_leads.jpg" alt="trim leads" width="72%"/>
 
-9. The next component to add is a SP1117 surface-mount voltage regulator (U8). See Steps 10–12 for details on how to solder this components to the PCB.
+10. The next component to add is a SP1117 surface-mount voltage regulator (U8). See Steps 10–12 for details on how to solder this components to the PCB.
 
     <img src="figs/Step02.jpg" alt="step 2" width="85%"/>
 
-10. Start by heating one pad and adding a small amount of solder.
+11. Start by heating one pad and adding a small amount of solder.
 
     <img src="figs/surface_mount1.jpg" alt="surface mount 1" width="72%"/>
 
-11. Holding the component with a pair of tweezers or needle-nose pliers, reheat the solder and slide the part into place. The three legs (one soldered and two unsoldered) should straddle the pads. If the legs are not aligned properly aligned with the pads, reheat the pad/leg with solder and reposition.
+12. Holding the component with a pair of tweezers or needle-nose pliers, reheat the solder and slide the part into place. The three legs (one soldered and two unsoldered) should straddle the pads. If the legs are not aligned properly aligned with the pads, reheat the pad/leg with solder and reposition.
 
     <img src="figs/surface_mount2.jpg" alt="surface mount 2" width="72%"/>
 
-12. Solder other legs to the board. Solder should flow under each leg.
+13. Solder other legs to the board. Solder should flow under each leg.
 
     <img src="figs/surface_mount3.jpg" alt="surface mount 3" width="72%"/>
 
-12. Solder the ground tab to the board. Note that the ground pad will take a while to heat up to a sufficient temperature to allow solder to flow properly. The solder should flow under the tab.
+14. Solder the ground tab to the board. Note that the ground pad will take a while to heat up to a sufficient temperature to allow solder to flow properly. The solder should flow under the tab.
 
     <img src="figs/surface_mount4.jpg" alt="surface mount 4" width="72%"/>
 
-13. Using the same technique used for the surface-mount voltage regulator, solder the Schottky diode array (D1) into place. Note that the large ground pad will take even longer to reach soldering temperature.
+15. Using the same technique used for the surface-mount voltage regulator, solder the Schottky diode array (D1) into place. Note that the large ground pad will take even longer to reach soldering temperature.
 
     <img src="figs/Step03.jpg" alt="step 3" width="85%"/>
 
-13. Turn the MSEduino over to work on the solder side.
+16. Turn the MSEduino over to work on the solder side.
 
 17. Solder in the two pushbuttons (marked as Prog/PB1 and PB2/Rst on the PCB). The buttons may be installed in either orientation. There is no need to trim the pins after soldering.
 
@@ -126,8 +130,8 @@ If you have not done so already, please review [Soldering is Easy](https://might
 
 28. Turn the MSEdunio over to the solder side. Place the USB-A connector, ensuring that it is fully seated against the PCB. Flip the board and solder one of the four small pins. Check alignment and then solder the remaining three small pins. The two large pins serve to reinforce the connection to the board. Flood the corresponding holes with solder for form a secure connection.
 
-    <img src="figs/Step16.1.jpg" alt="step 16" width="85%"/>
-
+    <img src="figs/Step16.1.jpg" alt="step 16" width="85%"/>    
+    <img src="figs/USB_connector.jpg" alt="USB connector" width="85%"/>
 
 29. Turn the MSEduino back to the solder side. Carefully insert 40 FlexyPins into the board with the long end in the oval hole and the short end in the smaller one. Once all pins have been inserted, use the acrylic FlexyPin alignment tool to align all of the pins. Flip the board and solder all of the short ends, being careful to not create solder "bridges" between adjacent pads. If a solder bridge does form, use a solder sucker to remove. Counterinuitively, it may be helpful to add more solder to the bridged pins before reheating and sucking away the excess solder.
 
@@ -155,5 +159,5 @@ If you have not done so already, please review [Soldering is Easy](https://might
 33. Your fully-assembled MSEduino board with ESP32 installed should look like this:
 
     <img src="figs/Step21.jpg" alt="step 21" width="85%"/>
-
-35. **Be sure to wash your hands after handling solder.**
+ 
+34. **Be sure to wash your hands after handling solder.**
