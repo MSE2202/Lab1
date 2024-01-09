@@ -1,0 +1,7 @@
+.DS_Store
+*.svd
+debug.*
+debug_custom.*
+.pio
+.vscode
+*.code-workspace
