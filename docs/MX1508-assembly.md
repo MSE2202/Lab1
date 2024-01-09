@@ -14,9 +14,9 @@ The complete process of adding headers to the MX1508 DC Motor Driver is demonstr
 
 2. Solder a 2-pin male header to the power pads (marked + and -). The header should be soldered to the bottom side of the PCB (facing downwards). Start with one pin, adjust straightness and solder the other pin.
 
-3. Solder a 4-pin male header to the control signal pads (marked IN1, IN2, IN3, and IN4). The header should be soldered to the bottom side of the PCB (facing downwards). Start with one pin, adjust straighness and solder the other 3 pins.
+3. Solder a 4-pin male header to the control signal pads (marked IN1, IN2, IN3, and IN4). The header should be soldered to the bottom side of the PCB (facing downwards). Start with one pin, adjust straightness and solder the other 3 pins.
 
-4. Solder a 4-pin male header to the motor pads (marked MOTOR-A and MOTOR-B). The header should be installed on the top of the PCB (facing upwards). Start with one pin, adjust straighness and solder the other 3 pins.
+4. Solder a 4-pin male header to the motor pads (marked MOTOR-A and MOTOR-B). The header should be installed on the top of the PCB (facing upwards). Start with one pin, adjust straightness and solder the other 3 pins.
 
 5. **Be sure to wash your hands after handling solder.**
 
