@@ -44,8 +44,8 @@ The entire MSEduino build is demonstrated the video below. It is recommended tha
 
     <img src="figs/bent_leads2.jpg" alt="bent leads 2" width="72%"/>
 
-7. Solder one of resistor leads to the pad on the PCB. Once soldered, check the resistor from the component side to ensure that it has not popped up. If it has, reheat the solder and, begin careful to not burn your fingers, press the resistor to the PCB. Solder the other lead. 
-    
+7. Solder one of resistor leads to the pad on the PCB. Once soldered, check the resistor from the component side to ensure that it has not popped up. If it has, reheat the solder and, begin careful to not burn your fingers, press the resistor to the PCB. Solder the other lead.
+
     <img src="figs/solder_leads.jpg" alt="solder leads" width="72%"/>
 
 8. Check that the solder joints are well formed. Ensure that there is sufficient, but not too much solder, at each connection. Look for cold solder joints (a ball of solder above pad). If any problems are visible, use the soldering iron to retouch the joints, adding more solder if necessary.
@@ -133,9 +133,12 @@ The entire MSEduino build is demonstrated the video below. It is recommended tha
     <img src="figs/Step16.1.jpg" alt="step 16" width="85%"/>    
     <img src="figs/USB_connector.jpg" alt="USB connector" width="85%"/>
 
-30. Turn the MSEduino back to the solder side. Carefully insert 40 FlexyPins into the board with the long end in the oval hole and the short end in the smaller one. Once all pins have been inserted, use the acrylic FlexyPin alignment tool to align all of the pins. Flip the board and solder all of the short ends, being careful to not create solder "bridges" between adjacent pads. If a solder bridge does form, use a solder sucker to remove. Counterinuitively, it may be helpful to add more solder to the bridged pins before reheating and sucking away the excess solder.
+30. Turn the MSEduino back to the solder side. Carefully insert 40 FlexyPins into the board with the long end in the oval hole and the short end in the smaller one. Once all pins have been inserted, use the acrylic FlexyPin alignment tool to align all of the pins. Flip the board and solder all of the short ends, being careful to not create solder "bridges" between adjacent pads. If a solder bridge does form, use a solder sucker to remove. Counterinuitively, it may be helpful to add more solder to the bridged pins before reheating and sucking away the excess solder. **Do not solder the long ends in the oval holes.** They need to be able to flex. 
 
     <img src="figs/Step17.1.jpg" alt="step 17" width="85%"/>
+    <img src="figs/flexypin_insertion.jpg" alt="FlexyPin insertion" width="85%"/>
+    <img src="figs/flexypin_alignment.jpg" alt="FlexyPin alignment" width="85%"/>
+
 
 31. Once the board has been soldered, it is important to test for short circuits and other potential issues **before** inserting the ESP32. Using a multimeter set to continuity (beep) mode, the following tests should be performed. If a beep is heard, the source of the short circuit must be identified and corrected.
     1. Ground (centre hole or pins along bottom edge of board) to 3.3 VDC pins (middle pins of J0, J3–J18, J46–J48).
@@ -150,7 +153,7 @@ The entire MSEduino build is demonstrated the video below. It is recommended tha
 
 32. With the chamfered corners on the leading edge, insert the acrylic FlexyPin spreader into the FlexyPins. 
 
-    <img src="figs/pin_spread.jpg" alt="pin spreading" width="72%"/>
+    <img src="figs/flexypin_spread.jpg" alt="FlexyPin spreading" width="72%"/>
 
 33. Carefully insert the ESP32 module between the pins. Confirm that all of the FlexyPins are properly aligned with the corresponding notch in the ESP32 module. Once everything is properly aligned, remove the pin spreader. 
 
@@ -158,6 +161,6 @@ The entire MSEduino build is demonstrated the video below. It is recommended tha
 
 34. Your fully-assembled MSEduino board with ESP32 installed should look like this:
 
-    <img src="figs/Step21.jpg" alt="step 21" width="85%"/>
+    <img src="figs/MSEduino_complete.jpg" alt="MSEduino complete" width="72%"/>
  
 35. **Be sure to wash your hands after handling solder.**
