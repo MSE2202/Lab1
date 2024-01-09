@@ -25,7 +25,7 @@ Github project page: https://github.com/adafruit/Adafruit_NeoPixel
 
 ## Compling and Uploading Test Code
 
-Use a USB-A to USB-micro cable to connect your ESP32 to your computer. Use the **Tools→Board→esp32** menu to select the **DOIT ESP32 DEVKIT V1**. If you do not see any options for ESP32 boards, follow the instructions [here](https://randomnerdtutorials.com/installing-the-esp32-board-in-arduino-ide-windows-instructions/).
+Use a USB-A to USB-micro cable to connect your ESP32 to your computer. Use the **Tools→Board→esp32** menu to select the **Adafruit Feather ESP32-S3 No PSRAM**. If you do not see any options for ESP32 boards, follow the instructions [here](https://randomnerdtutorials.com/installing-the-esp32-board-in-arduino-ide-windows-instructions/).
 
 ![Board configuration](docs/Config-board.png)
 
