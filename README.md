@@ -2,20 +2,24 @@
 
 ## Objectives
 
-This lab will serve to introduce students to printed circuit board (PCB) soldering techniques. By the end of the lab each student should:
+This lab will serve to introduce students to soldering techniques for printed circuit boards (PCBs) and wire-to-wire connections. By the end of the lab each student should:
 
 1. Be able to identify a number of common electronic components
 2. Be able to solder components to through-hole PCBs
 3. Be able to solder simple surface-mount components to a PCB
-4. Obtain code from GitHub
-5. Upload code to an ESP32-based Arduino microcontroller
-6. Have a working Arduino-compatible microcontroller
+4. Be able to solder wires to one another and insulate joint with heat shrink tubing
+5. Obtain code from GitHub
+6. Upload code to an ESP32-based Arduino microcontroller
+7. Have a working Arduino-compatible microcontroller
+8. Have a number of other components that will be used for subsequent labs
 
 ## Description
 
 [Arduino](https://www.arduino.cc) started as an open-source microcontroller originally designed with the goal of making it simple for artists and other nontechnical individuals to build interactive objects. It is easy to program and intuitive to connect to external devices such as motors, lights, switches and other sensors. The right balance of capability and cost, bolstered by a growing open-source hardware movement, has allowed the device to become widely adopted. Today, the Arduino family of microcontrollers are employed in a wide range of applications, including art installations, mobile robotics, machine control, home automation and entertainment systems. Programming is performed using the cross-platform Arduino IDE, which runs on Windows, Mac OS X and Linux based systems.
 
 The MSEduino that you will build in this lab is a custom Arduino-compatible board developed specifically for MSE 2202. It uses the ESP32-S3 microcontroller and is supported by the Arduino IDE. The ESP32-S3 operates on an input voltage of 3.3 V. A voltage regulator on the MSEduino board converts a 5 VDC input supplied to the USB port to 3.3 VDC for use by the microcontroller. Both 3.3 V and 5 V are available on the board to power peripheral devices. The ESP32-S3 used by the MSEduino has two 32-bit cores running at up to 240 MHz, 8 MB of Flash memory, 512 kB of sRAM, 384 kB of ROM, 45 general-purpose input/output (GPIO) lines, two 10 channel A/D converters, and many built-in peripherals, including Bluetooth LE, WiFi, a real-time clock, and hardware security. It is a very powerful and capable device.
+
+In addition to the MSEduino, this lab will prepare a number of other components that will be used in this an future lab exercises. These include an MX1508 dual DC motor driver, DC gearmotors with integrated encoders, an IR detector, and an IR beacon.
 
 ### Equipment
 
