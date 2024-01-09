@@ -46,7 +46,7 @@ In order to compile properly, the test code requires two libraries to be install
 
 The Adafruit NeoPixel library is a third-party library that can be installed directly from the Arduino IDE Library Manager. Go to **Tools→Manage Libraries...**. Use the search box to find and install the AdaFruit NeoPixel library.
 
-<img src="figs/Adafruit_Neopixel.png" alt="Adafruit NeoPixel " width="90%"/>
+<img src="figs/Adafruit_NeoPixel.png" alt="Adafruit NeoPixel" width="90%"/>
 
 For users of VSCode/PlatformIO, a dependancy for the Adafruit NeoPixel library is contained in the `platformio.ini` configuration file [MSEduino-R51-Test](https://github.com/MSE2202/MSEduino-R51-Test) repository. This will automatically install the library, if necessary.
 
