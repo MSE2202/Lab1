@@ -9,7 +9,11 @@ https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32
 
 <img src="figs/Arduino_preferences.png" alt="Arduino preferences" width="90%"/>
 
-Once added, the Arduino IDE will download the board libraries. Use a USB-A extension cable to connect your MSEduino to your computer. Use the **Tools→Board→esp32** menu to select the **Adafruit Feather ESP32-S3 No PRAM board**. The Port should be set as **COMx** on Windows or **dev.cu.usbmodel14101** (or similar) on Mac. Your configuration should be as follows:
+Once added, the Arduino IDE will download the board libraries. Use a USB-A extension cable to connect your MSEduino to your computer. Use the **Tools→Board→esp32** menu to select the **Adafruit Feather ESP32-S3 No PRAM board**. The Port should be set as **COMx** on Windows or **dev.cu.usbmodel14101** (or similar) on Mac.
+
+<img src="figs/Arduino_config.png" alt="Arduino configuration" width="90%"/>
+
+ Use the **Tools** menu to check that your configuration is follows, making any necessary adjustments:
 
 | Parameter                            | Setting                          |
 |--------------------------------------|----------------------------------|
@@ -46,7 +50,7 @@ In order to compile properly, the test code requires two libraries to be install
 
 The Adafruit NeoPixel library is a third-party library that can be installed directly from the Arduino IDE Library Manager. Go to **Tools→Manage Libraries...**. Use the search box to find and install the AdaFruit NeoPixel library.
 
-<img src="figs/Adafruit_NeoPixel.png" alt="Adafruit NeoPixel" width="60%"/>
+<img src="figs/Adafruit_NeoPixel.png" alt="Adafruit NeoPixel" width="50%"/>
 
 For users of VSCode/PlatformIO, a dependancy for the Adafruit NeoPixel library is contained in the `platformio.ini` configuration file [MSEduino-R51-Test](https://github.com/MSE2202/MSEduino-R51-Test) repository. This will automatically install the library, if necessary.
 
