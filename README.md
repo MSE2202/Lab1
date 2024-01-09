@@ -30,8 +30,10 @@ In addition to the components contained in the Lab Kit, the following equipment 
 * Flush cutters
 * Needle-nose pliers
 * Wire strippers
+* Heat gun
 * Solder sucker (if necessary)
 * Agilent Technologies U3401A multimeter
+* Rigol MSO1074 4 Channel 70 MHz oscilloscope
 * USB-A male to USB-A female cable
 * PC with Arduino IDE
 
@@ -47,7 +49,7 @@ This lab consists of the following exercises. Follow the associated link for ful
 1. [MSEduino Assembly](docs/MSEduino-assembly.md)
 2. [MX1508 DC Motor Driver Assembly](docs/MX1508-assembly.md)
 3. [DC Motor Wiring](docs/DC-motor-wiring.md)
-4. [IR Receiver Assembly](docs/IR-receiver-assembly.md)
+4. [IR Detector Assembly](docs/IR-detector-assembly.md)
 5. [IR Beacon Assembly](docs/IR-beacon-assembly.md)
 6. [MSEduino Testing](docs/MSEduino-testing.md)
 

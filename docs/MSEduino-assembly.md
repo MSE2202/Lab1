@@ -18,7 +18,7 @@ If you have not done so already, please review [Soldering is Easy](https://might
 
 The entire MSEduino build is demonstrated the video below. It is recommended that, in addition to carefully reading the instructions here, you watch or follow along with the video for suggestions and tips **before** completing each step.
 
-[![MSEduino V5.1 Build](https://img.youtube.com/vi/HEy4Kgx4rsw/0.jpg)](https://www.youtube.com/watch?v=HEy4Kgx4rsw "MSEduino R5.1 Build")
+[![MSEduino V5.1 Assembly](https://img.youtube.com/vi/HEy4Kgx4rsw/0.jpg)](https://www.youtube.com/watch?v=HEy4Kgx4rsw "MSEduino R5.1 Assembly")
 
 1. **Begin by putting on a pair of safety glasses.**
 
