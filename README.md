@@ -8,10 +8,10 @@ This lab will serve to introduce students to soldering techniques for printed ci
 2. Be able to solder components to through-hole PCBs
 3. Be able to solder simple surface-mount components to a PCB
 4. Be able to solder wires to one another and insulate joint with heat shrink tubing
-5. Obtain code from GitHub
-6. Upload code to an ESP32-based Arduino microcontroller
+5. Know how to obtain code from GitHub
+6. Be able to upload code to an ESP32-based Arduino microcontroller
 7. Have a working Arduino-compatible microcontroller
-8. Have a number of other components that will be used for subsequent labs
+8. Have a number of other components ready to be used for subsequent lab exercises
 
 ## Description
 
