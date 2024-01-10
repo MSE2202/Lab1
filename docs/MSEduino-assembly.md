@@ -92,7 +92,7 @@ The entire MSEduino build is demonstrated the video below. It is recommended tha
 
     <img src="figs/Step06.jpg" alt="step 6" width="85%"/>
 
-20. Place six 0.1 µF ceramic capacitors (C1, C4, C5, C6, C7, C9) into their marked locations. Ceramic capacitors are not polarized, therefore it does not matter what orientation the capacitors are placed in (although it is good practice to face them all the same way). You may then bend the leads, and solder them in place.
+20. Place six 0.1 µF ceramic capacitors (C1, C4, C5, C6, C8, C9) into their marked locations. Ceramic capacitors are not polarized, therefore it does not matter what orientation the capacitors are placed in (although it is good practice to face them all the same way). You may then bend the leads, and solder them in place.
 
     <img src="figs/Step07.jpg" alt="step 7" width="85%"/>
 
