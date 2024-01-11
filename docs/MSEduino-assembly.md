@@ -91,7 +91,8 @@ The entire MSEduino build is demonstrated the video below. It is recommended tha
 19. Place the **3 mm** bipolar LED (**small clear package—not one of the 5 mm red LEDs or 5 mm clear IR LED**) in the LED 2 location. Since this LED is bipolar, it will work either way; however, if you want to chose the colour (red or green) it must be installed in a particular orientation. For red, the short leg should be downwards (flat side of silkscreen); for green, the short leg should be upwards (round side of silkscreen). To check before soldering, you can energize the LED using the diode testing function of a digital multimeter. Once placed, solder the LED to the board.
 
     <img src="figs/Step06.jpg" alt="step 6" width="85%"/>
-
+    <img src="figs/3mm_LED.jpg" alt="3 mm LED" width="73%"/>
+    
 20. Place six 0.1 µF ceramic capacitors (C1, C4, C5, C6, C8, C9) into their marked locations. Ceramic capacitors are not polarized, therefore it does not matter what orientation the capacitors are placed in (although it is good practice to face them all the same way). You may then bend the leads, and solder them in place.
 
     <img src="figs/Step07.jpg" alt="step 7" width="85%"/>
