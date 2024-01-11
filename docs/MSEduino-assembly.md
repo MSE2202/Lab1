@@ -88,7 +88,7 @@ The entire MSEduino build is demonstrated the video below. It is recommended tha
 
     <img src="figs/Step05.jpg" alt="step 5" width="85%"/>
 
-19. Place the bipolar LED in the LED 2 location. Since this LED is bipolar, it will work either way; however, if you want to chose the colour (red or green) it must be installed in a particular orientation. For red, the short leg should be downwards (flat side of silkscreen); for green, the short leg should be upwards (round side of silkscreen). To check before soldering, you can energize the LED using the diode testing function of a digital multimeter. Once placed, solder the LED to the board.
+19. Place the **3 mm** bipolar LED (**small clear package, not one of the 5 mm red LEDs**) in the LED 2 location. Since this LED is bipolar, it will work either way; however, if you want to chose the colour (red or green) it must be installed in a particular orientation. For red, the short leg should be downwards (flat side of silkscreen); for green, the short leg should be upwards (round side of silkscreen). To check before soldering, you can energize the LED using the diode testing function of a digital multimeter. Once placed, solder the LED to the board.
 
     <img src="figs/Step06.jpg" alt="step 6" width="85%"/>
 
