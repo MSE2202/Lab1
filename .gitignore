@@ -5,3 +5,4 @@ debug_custom.*
 .pio
 .vscode
 *.code-workspace
+.markdownlint.json
