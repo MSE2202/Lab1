@@ -10,7 +10,7 @@ To start, Visit the official Arduino website and click on the [Getting Started](
 
 Enter "esp32" in the search box. Find the "esp32 by Espressif Systems" boards and click the **Install** button to install the ESP32 boards.
 
-<img src="figs/install_ESP32.png" alt="Install ESP32 boards" width="80%"/>
+<img src="figs/install_esp32.png" alt="Install ESP32 boards" width="80%"/>
 
 Once the ESP32 boards are installed, use the **Tools→Board→esp32** menu to select the **DOIT ESP32 DEVKIT V1**.
 
