@@ -120,6 +120,8 @@ The entire MSEduino build is demonstrated the video below. It is recommended tha
 
 26. Turn the board over to the solder side. Using a pair of tweezers, solder a 20 kΩ surface-mount resistor (603 package) between the J39 signal pin (inner) and 3.3 V pin (middle). Repeat for J34.
 
+    <img src="figs/pullup_resistors.jpg" alt="pullup resistors" width="72%"/>
+
 27. Turn the board over to the comoponent side. Place the 10 µF electrolytic capacitor (C14). Note that, unlike ceramic capacitors, electrolytic capacitors have a polarity. The side with the negative lead is indicated by a white band (containing negative signs) on the capacitor barrel. The pad for the positive lead is marked with a plus sign on the board. Once placed, solder the capacitors to the board and trim the leads.
 
     <img src="figs/Step14.jpg" alt="step 14" width="72%"/>
