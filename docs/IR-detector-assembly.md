@@ -2,8 +2,7 @@
 
 An IR receiver module is used to receive signals that are transmitted over a particular carrier frequency. The MSE 2202 Lab Kit includes a TSOP32238 IR receiver that is tuned to 38 kHz. It is used by the MSEbot to detect and localize an IR beacon.
 
-To faciliate integration with the MSEduino, a 3-wire connector is added to the TSOP. In addition, a 10 µF electrolytic capacitor is added to the power terminals to help reduce supply ripple. 
-
+To faciliate integration with the MSEduino, a 3-wire connector is added to the TSOP. In addition, a 10 µF electrolytic capacitor is added to the power terminals to help reduce supply ripple.
 
 ## Instructions
 
