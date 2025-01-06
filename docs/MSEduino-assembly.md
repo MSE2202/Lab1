@@ -74,7 +74,7 @@ The entire MSEduino build is demonstrated the video below. It is recommended tha
     <img src="figs/Step03.jpg" alt="step 3" width="72%"/>
 
 
-15. Solder the six-pin load switch (U1) into place. Be careful to align the dot that marks pin 1 with the dot on the PCB.
+15. Solder the six-pin load switch (U1) into place. Be careful to align the dot that marks pin 1 with the dot on the PCB. Start by soldering one pin and, if necessary, **carefully** adjusting alignment. Note that the pins are very delicate so be sure that the solder has melted before attempting to shift the chip. Once the alignment looks good, solder the remaining 5 pins. **Do not worry about any solder bridges until all pins have been soldered**. If any pins are bridged with solder (i.e., connected together), use solder wick and/or a solder sucker to remove excess solder. Use a multimeter to test the continuity between adjacent pins.
 
     <img src="figs/Step04.jpg" alt="step 4" width="72%"/>
     <img src="figs/load_switch_zoom.jpg" alt="load switch" width="72%">
