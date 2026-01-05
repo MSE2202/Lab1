@@ -2,13 +2,13 @@
 
 The MX1508 Dual DC Motor Driver comes without any installed headers. This provides the end user with the opportunity to choose the type of connections that are used. In MSE 2202, the MX1508 is configured with male header pins that connect to female headers on the MSEduino and to female-ended terminal connectors for the driven DC motors.
 
-![MX1508](figs/MX1508.jpg)
+<img src="figs/MX1508.jpg" alt="MX 1508" width="72%"/>
 
 ## Instructions
 
 The complete process of adding headers to the MX1508 DC Motor Driver is demonstrated in the following video.
 
-[![MX1508 Assembly](https://img.youtube.com/vi/PfD6rTbzguY/0.jpg)](https://www.youtube.com/watch?v=PfD6rTbzguY "MSEduino R5.1 Build")
+[![MX1508 Assembly](https://img.youtube.com/vi/PfD6rTbzguY/0.jpg)](https://www.youtube.com/watch?v=PfD6rTbzguY "MX1508 Build Build")
 
 1. **Begin by putting on a pair of safety glasses.**
 
@@ -16,7 +16,7 @@ The complete process of adding headers to the MX1508 DC Motor Driver is demonstr
 
 3. Solder a 4-pin male header to the motor pads (marked MOTOR-A and MOTOR-B). The header should be installed on the top of the PCB (facing upwards). Start with one pin, adjust straightness, and solder the other 3 pins.
 
-5. **Be sure to wash your hands after handling solder.**
+4. **Be sure to wash your hands after handling solder.**
 
 ## Resources
 

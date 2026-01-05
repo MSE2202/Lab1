@@ -2,7 +2,7 @@
 
 An IR beacon may be used to communicate information or for localization and navigation. The IR beacon included in the MSE 2202 Lab Kit consists of an infrared emitter (940 nm IR LED), an ESP32-C3 microcontroller, and a lithium polymer battery.
 
-The ESP32-C3 in the MSE 2202 Lab Kit is can be programmed to generate a 38 kHz carrier frequency and broadcast a single character U (0x55 or 0b01010101) every 100 ms. The source code and other information related the beacon implementation is available in a separate repository on GitHub [https://github.com/MSE2202/ESP32-C3-Beacon](https://github.com/MSE2202/ESP32-C3-Beacon).
+The ESP32-C3 in the MSE 2202 Lab Kit is can be programmed to generate a 38 kHz carrier frequency and broadcast a single character U (0x55 or 0b01010101) every 100 ms. The source code and other information related the beacon implementation is available in a separate repository on GitHub [https://github.com/MSE2202/C3-Beacon](https://github.com/MSE2202/C3-Beacon).
 
 ## Instructions
 
@@ -34,9 +34,9 @@ The complete process of preparing the IR LED for the beacon is demonstrated in t
 
 ## Testing
 
-The IR LED can be tested using the [IR detector](IR-detector-assembly.md) and the test code that is hosted in a separate repository on GitHub. It may be found at [https://github.com/MSE2202/BeaconTest](https://github.com/MSE2202/BeaconTest). You can download (or clone) the entire repository or only the sketch in the BeaconTest folder.
+The IR LED can be tested using the [IR detector](IR-detector-assembly.md) and C3 Beacon code that is hosted in a separate repository on GitHub. It may be found at [https://github.com/MSE2202/C3-Beacon](https://github.com/MSE2202/C3-Beacon). You can download (or clone) the entire repository or only the sketch in the C3-Beacon folder.
 
-With the TSOP output connected to GPIO07, a serial monitor configured to 9600 baud can be used to display any received data (characters).
+With the TSOP output connected to GPIO21, a serial monitor configured to 9600 baud can be used to display any received data (characters). The `SELF_TEST` option must be enabled.
 
 Alternatively, the signal from GPIO6 can be connected to an oscilloscope for observation, as shown in the figure below. The output from the TSOP is shown in yellow (CH1) and the signal from the beacon is shown in blue (CH2).
 

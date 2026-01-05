@@ -28,11 +28,11 @@ The complete process of adding terminal connectors to the IR receiver is demonst
 
 ## Testing
 
-The IR detector can be tested using the [IR beacon](IR-beacon-assembly.md) and the test code that is hosted in a separate repository on GitHub. It may be found at [https://github.com/MSE2202/BeaconTest](https://github.com/MSE2202/BeaconTest). You can download (or clone) the entire repository or only the sketch in the BeaconTest folder.
+The IR detector can be tested using the [IR LED](IR-LED-assembly.md) and C3 Beacon code that is hosted in a separate repository on GitHub. It may be found at [https://github.com/MSE2202/C3-Beacon](https://github.com/MSE2202/C3-Beacon). You can download (or clone) the entire repository or only the sketch in the C3-Beacon folder.
 
-With the TSOP output connected to GPIO09, a serial monitor configured to 9600 baud can be used to display any received data (characters).
+With the TSOP output connected to GPIO21, a serial monitor configured to 9600 baud can be used to display any received data (characters). The `SELF_TEST` option must be enabled.
 
-Alternatively, the signal from the output pin can be connected to an oscilloscope for observation, as shown in the figure below. The output from the TSOP is shown in yellow (CH1) and the signal from the beacon is shown in blue (CH2).
+Alternatively, the signal from GPIO6 can be connected to an oscilloscope for observation, as shown in the figure below. The output from the TSOP is shown in yellow (CH1) and the signal from the beacon is shown in blue (CH2).
 
 ![IR Signals](figs/IR_signals.jpg)
 
