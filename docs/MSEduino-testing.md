@@ -4,7 +4,7 @@ In order to test the functionality of the MSEduino, test code must be loaded ont
 
 Programs for the [Arduino](https://www.arduino.cc) are called sketches. These are created within an Integrated Development Environment (IDE) for the Arduino. The IDE allows sketches to be written and edited. The language and constructs are similar to C++. It provides functionality to convert (or compile) the human-readable code into instructions that the Arduino hardware understands (machine language). The IDE also facilitates the process of uploading compiled machine code onto the Arduino board. The IDE is available for Windows, Mac OS X and Linux based systems.
 
-To start, Visit the official Arduino website and click on the [Getting Started](https://arduino.cc/en/Guide/HomePage) header. Follow the step-by-step instructions to install the Arduino IDE for the operating system on your laptop or home computer. Once installed, it must be configured for the ESP32 microcontroller. Use a USB-A to USB-micro cable to connect your ESP32 to your computer. Use the **Tools→Board→Boards Manager...** menu to open the boards manager.
+To start, visit [Getting Started with Arduino IDE 2](https://docs.arduino.cc/software/ide-v2/tutorials/getting-started-ide-v2/) on the official Arduino website. Follow the [step-by-step instructions](https://docs.arduino.cc/software/ide-v2/tutorials/getting-started/ide-v2-downloading-and-installing/) to download and install the Arduino IDE for the operating system on your laptop or home computer. Once installed, it must be configured for the ESP32 microcontroller. Use a USB-A to USB-micro cable to connect your ESP32 to your computer. Use the **Tools→Board→Boards Manager...** menu to open the boards manager.
 
 <img src="figs/boards_manager.png" alt="Boards manager" width="80%"/>
 
@@ -26,7 +26,7 @@ To help identify the cause of hangups and errors during the build and upload pro
 
 ## Test Code
 
-The code used to test the MSEduino is hosted in a separate repository on GitHub. It may be found at [https://github.com/MSE2202/MSEduino-R61-Test](https://github.com/MSE2202/MSEduino-R61-Test). You can download (or clone) the entire repository or only the sketch in the **MSEduino-R61-Test folder**.
+The code used to test the MSEduino is hosted in a separate repository on GitHub. It may be found at [https://github.com/MSE2202/MSEduino-R63-Test](https://github.com/MSE2202/MSEduino-R63-Test). You can download (or clone) the entire repository or only the sketch in the **MSEduino-R63-Test folder**.
 
 ### Library Installation
 
@@ -40,7 +40,7 @@ The Adafruit NeoPixel library is a third-party library that can be installed dir
 
 ## Compling and Uploading Test Code
 
-Once the test code has been downloaded and the required library has been installed, use **File→Open...** to navigate to the folder containing the test code and open the file `MSEduino-V61-Test.ino`. This will open all 3 files in the folder, each in a separate tab. With the MSEduino connected and the board and port set correctly, the program can be compiled and uploaded using **Sketch→Upload**. The board will usually program automatically, but sometimes it is necessary to manually enter programming mode. To program, press and hold the reset button, then press and hold program button, release the reset button, and then release the program button.
+Once the test code has been downloaded and the required library has been installed, use **File→Open...** to navigate to the folder containing the test code and open the file `MSEduino-V63-Test.ino`. This will open all 3 files in the folder, each in a separate tab. With the MSEduino connected and the board and port set correctly, the program can be compiled and uploaded using **Sketch→Upload**. The board will usually program automatically, but sometimes it is necessary to manually enter programming mode. To program, press and hold the reset button, then press and hold program button, release the reset button, and then release the program button.
 
 ## MSEduino Testing
 
