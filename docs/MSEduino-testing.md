@@ -16,7 +16,7 @@ Once the ESP32 boards are installed, use the **Tools→Board→esp32** menu to s
 
 <img src="figs/config_board.png" alt="Board configuration" width="80%"/>
 
-With the board is selected, the Port should be set as **COMx** on Windows or **/dev/cu.usbserial-000x** on Mac. In some cases, you may need to install a driver on your computer so that for the USB to UART bridge on the ESP32 is recognized. If so, it can be downloaded from [here](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads).
+With the board is selected, the Port should be set as **COMx** on Windows or **/dev/cu.usbserial-000x** on Mac. In some cases, you may need to install a driver on your computer so that for the USB to UART bridge on the ESP32 is recognized. If so, it can be downloaded from [Silicon Labs](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads).
 
 <img src="figs/config_port.png" alt="Port configuration" width="80%"/>
 
@@ -38,7 +38,7 @@ The Adafruit NeoPixel library is a third-party library that can be installed dir
 
 <img src="figs/Adafruit_NeoPixel.png" alt="Adafruit NeoPixel" width="80%"/>
 
-## Compling and Uploading Test Code
+## Compiling and Uploading Test Code
 
 Once the test code has been downloaded and the required library has been installed, use **File→Open...** to navigate to the folder containing the test code and open the file `MSEduino-V63-Test.ino`. This will open all 3 files in the folder, each in a separate tab. With the MSEduino connected and the board and port set correctly, the program can be compiled and uploaded using **Sketch→Upload**. The board will usually program automatically, but sometimes it is necessary to manually enter programming mode. To program, press and hold the reset button, then press and hold program button, release the reset button, and then release the program button.
 
