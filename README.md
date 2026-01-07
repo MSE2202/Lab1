@@ -59,13 +59,13 @@ This lab consists of the following exercises. Follow the associated link for ful
 
 ## Evaluation
 
-| Task       | Maximum Marks |
-|:-----------|:-------------:|
-| MSEduino build | **40**        |
+| Task | Maximum Marks |
+| :----------- | :-------------: |
+| MSEduino build | **40** |
 | MX1508 build | **5** |
 | DC motor wiring | **10** |
 | IR receiver build | **5** |
 | IR LED build | **5** |
-| MSEduino operational | **25**        |
-| Build quality | **10**        |
-| Total Marks | **100**       |
+| MSEduino operational | **25** |
+| Build quality | **10** |
+| Total Marks | **100** |

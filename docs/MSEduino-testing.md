@@ -42,7 +42,7 @@ The Adafruit NeoPixel library is a third-party library that can be installed dir
 
 Once the test code has been downloaded and the required library has been installed, use **File→Open...** to navigate to the folder containing the test code and open the file `MSEduino-V63-Test.ino`. This will open all 3 files in the folder, each in a separate tab. With the MSEduino connected and the board and port set correctly, the program can be compiled and uploaded using **Sketch→Upload**. The board will usually program automatically, but sometimes it is necessary to manually enter programming mode. To program, press and hold the reset button, then press and hold program button, release the reset button, and then release the program button.
 
-## MSEduino Testing
+## Testing
 
 Once the code is uploaded, reset your MSEduino and open the Serial Monitor (**Tools→Serial Monitor**). Check at the bottom of the window that the speed is set to 115200 baud. The output on your serial monitor should look similar to the figure below.
 

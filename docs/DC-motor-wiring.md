@@ -1,8 +1,8 @@
 # DC Motor Wiring
 
-The MSE 2202 Lab Kit includes two G12-N20-100 geared mini DC motors. These motors can operate over a wide voltage range (3–12 VDC) and are available with many different gear configurations. The particular version used in MSE 2202 turns at approximately 100 rpm when supplied with 6 VDC. An integrated Hall-effect quadrature encoder allows the rotation of the motor shaft to be measured. 
+The MSE 2202 Lab Kit includes two G12-N20-100 geared mini DC motors. These motors can operate over a wide voltage range (3–12 VDC) and are available with many different gear configurations. The particular version used in MSE 2202 turns at approximately 100 rpm when supplied with 6 VDC. An integrated Hall-effect quadrature encoder allows the rotation of the motor shaft to be measured.
 
-The motors are supplied with a 6-wire connector that terminates with bare wires. To facilitate a connection to the MX1508 DC Motor Driver, terminal wires need to be added to the 6-wire connector. 
+The motors are supplied with a 6-wire connector that terminates with bare wires. To facilitate a connection to the MX1508 DC Motor Driver, terminal wires need to be added to the 6-wire connector.
 
 ## Instructions
 
@@ -18,7 +18,7 @@ The complete process of adding terminal connectors to the DC motor is demonstrat
 
 4. Shorten the ends of the two 6-wire motor connectors to 2–3 mm and tin the ends.
 
-5. Cut the blue heat shrink tubing into 12 5 mm pieces and place one piece on each of the 12 motor connector wires. Slide the tubing towards the white connector. Confirm that each wire has a piece of heat shrink on it. 
+5. Cut the blue heat shrink tubing into 12 5 mm pieces and place one piece on each of the 12 motor connector wires. Slide the tubing towards the white connector. Confirm that each wire has a piece of heat shrink on it.
 
 6. Align the 6-wire motor connector wires with the 6-wire female connector wires. Solder each pair of wires together. Repeat with the other motor connector and female connector wires.
 

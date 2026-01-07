@@ -34,7 +34,6 @@ The entire MSEduino build is demonstrated the video below. It is recommended tha
     <img src="figs/Step01.jpg" alt="step 1" width="72%"/>
     <img src="figs/bent_leads1.jpg" alt="bent leads 1" width="72%">
 
-
 5. Bend the leads of the resistors outwards so that they do not fall out of place while being soldered. This may be done by reaching underneath before flipping the board over or by holding the resistors in place with one hand while flipping the board over with the other and then bending the leads outwards. In either case, the resistors should be pressed flush to the board while bending the leads. The leads should only be bent over enough to keep the resistor in place (30–50º).
 
     <img src="figs/bent_leads2.jpg" alt="bent leads 2" width="72%"/>
@@ -48,7 +47,6 @@ The entire MSEduino build is demonstrated the video below. It is recommended tha
 8. Using flush cutters, hold the exposed leads and trim them as close to the board as possible without cutting the joint itself. Repeat Steps 6–8 for the remaining fourteen 4.7 kΩ resistors.
 
     <img src="figs/trim_leads.jpg" alt="trim leads" width="72%"/>
-
 
 9. Turn the MSEduino over to work on the solder side.
 
@@ -97,11 +95,11 @@ The entire MSEduino build is demonstrated the video below. It is recommended tha
 
     <img src="figs/Step07.jpg" alt="step 7" width="72%"/>
 
-21. Place the **3 mm** bipolar LED (**small clear package—not one of the 5 mm red LEDs or 5 mm clear IR LED**) in the LED 2 location. Since this LED is bipolar, it will work either way; however, if you want to chose the colour (red or green) it must be installed in a particular orientation. For red, the short leg should be downwards (flat side of silkscreen); for green, the short leg should be upwards (round side of silkscreen). To check before soldering, you can energize the LED using the diode testing function of a digital multimeter. Once placed, solder the LED to the board.
+21. Place the **3 mm** bipolar LED (**small clear package—not one of the 5 mm red LEDs or 5 mm clear IR LED**) in the LED 2 location. Since this LED is bipolar, it will work either way; however, if you want to choose the colour (red or green) it must be installed in a particular orientation. For red, the short leg should be downwards (flat side of silkscreen); for green, the short leg should be upwards (round side of silkscreen). To check before soldering, you can energize the LED using the diode testing function of a digital multimeter. Once placed, solder the LED to the board.
 
     <img src="figs/Step08.jpg" alt="step 8" width="72%"/>
     <img src="figs/3mm_LED.jpg" alt="3 mm LED" width="72%"/>
-    
+
 22. Place four 0.1 µF ceramic capacitors (C1, C6, C8, C9) into their marked locations. Ceramic capacitors are not polarized, therefore it does not matter what orientation the capacitors are placed in (although it is good practice to face them all the same way). You may then bend the leads, and solder them in place.
 
     <img src="figs/Step09.jpg" alt="step 9" width="72%"/>
