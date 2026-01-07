@@ -6,7 +6,7 @@ If you have not done so already, please review [Soldering is Easy](https://might
 
 ## References
 
-- [Resistor Colour Codes](https://suntsu.com/wp-content/uploads/2021/10/Resistor-Code-Chart-768x768.png)
+- [Resistor Colour Codes](https://res.utmel.com/Images/UEditor/c1290dff-919c-4c71-b9f2-aa57a8eef5f6.png)
 - [Capacitor Codes](https://i2.wp.com/www.bragitoff.com/wp-content/uploads/2015/09/CapacitorsCheatSheet.png)
 - [MSEduino R6.3 Pinouts](MSEduino/MSEduino_R6.3_Pinouts.pdf)
 - [MSEduino R6.3 Schematic](MSEduino/MSEduino_R6.3_Schematic.pdf)
