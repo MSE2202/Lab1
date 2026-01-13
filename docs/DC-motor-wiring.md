@@ -18,7 +18,7 @@ The complete process of adding terminal connectors to the DC motor is demonstrat
 
 4. Shorten the ends of the two 6-wire motor connectors to 2–3 mm and tin the ends.
 
-5. Cut the blue heat shrink tubing into 12 5 mm pieces and place one piece on each of the 12 motor connector wires. Slide the tubing towards the white connector. Confirm that each wire has a piece of heat shrink on it.
+5. Cut 5 mm long pieces of heat shrink tubing and place one piece on each of the 12 motor connector wires. Slide the tubing towards the white connector. Confirm that each wire has a piece of heat shrink on it.
 
 6. Align the 6-wire motor connector wires with the 6-wire female connector wires. Solder each pair of wires together. Repeat with the other motor connector and female connector wires.
 
